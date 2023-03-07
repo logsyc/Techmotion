@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   font-family: 'Golos Text', sans-serif;
 }
+
 .navbar-brand {
   position: absolute;
   top: 0;
   left: 0;
   float: left;
-}
+  }
 
 .navbar-nav {
   float: right;
@@ -19,10 +21,13 @@
   padding-top: 60px;
   list-style: none;
 }
+
 .navbar-nav li a {
   color: white;
-  font-size: 20px; /* adjust the size as desired */
-  text-decoration: none; /* remove underline */
+  font-size: 20px;
+  /* adjust the size as desired */
+  text-decoration: none;
+  /* remove underline */
   padding-right: 100px;
 }
 
@@ -30,42 +35,34 @@
 .navbar-nav li:last-child {
   padding-right: 0;
 }
+
 .nav-item {
   margin-left: 1rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 428px) {
   .navbar-nav {
     float: none;
     justify-content: center;
   }
 }
 
-/*Header starts*/
-.header-logo {
-  position: static;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  z-index: 2; /* increase z-index to overlap with header image */
-}
-
 .home-header {
-  position: relative; /* remove overflow: hidden */
+  position: relative;
   height: 725px;
-  background-image: url('./images/img1.jpg'); /* add header image as background */
+  background-image: url('./images/img1.jpg');
+  /* add header image as background */
   background-size: cover;
   background-position: center;
 }
 
-.home-header::before
-{
+.home-header::before {
   content: "";
   position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   opacity: 0.8;
   background-color: rgba(8, 2, 34, 0.63);
 }
@@ -76,7 +73,8 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1; /* lower z-index to be behind header image */
+  z-index: 1;
+  /* lower z-index to be behind header image */
 }
 
 .header-image {
@@ -100,15 +98,15 @@ nav {
   z-index: 1;
 }
 
-.text-overlay h1{
+.text-overlay h1 {
   padding-top: 10%;
   text-align: left;
   font-size: 35px;
   line-height: 150%;
-  
+
 }
 
-.Animate{
+.Animate {
   font-size: 80px;
   line-height: 70px;
 }
@@ -131,12 +129,12 @@ nav {
   z-index: 1;
   color: white;
   align-items: center;
-  
+
 }
 
-.header-text a{
+.header-text a {
   text-decoration: none;
-  
+
 }
 
 
@@ -144,7 +142,7 @@ nav {
 /* CSS */
 .button-64 {
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -188,6 +186,7 @@ nav {
     min-width: 196px;
   }
 }
+
 /* TEMP: second page properties */
 .second_page {
   height: 700px;
@@ -202,18 +201,19 @@ nav {
   font-size: 2rem;
 }
 
-.second_page hr{
+.second_page hr {
   margin-left: 8rem;
   max-width: 10%;
   border-top: 4px solid #0e408b;
-  
-}
-.second_page img{
-  width: 35%;
-  
+
 }
 
-  
+.second_page img {
+  width: 35%;
+
+}
+
+
 /* TEMP: third page */
 
 .third_page {
@@ -226,13 +226,15 @@ nav {
   color: white;
   border: 1px solid white;
   padding: 2rem;
-  box-sizing: border-box; /* added box-sizing property */
+  box-sizing: border-box;
+  /* added box-sizing property */
 }
-.Lines{
+
+.Lines {
   background-color: white;
-  height:1rem;
+  height: 1rem;
   width: 10rem;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .placeholder-wrapper {
@@ -263,12 +265,12 @@ nav {
   line-height: 2rem;
 }
 
-.third_page h3{
+.third_page h3 {
   margin-top: 0.5rem;
 }
 
-.firstThirdH{
-  padding-top : 1rem;
+.firstThirdH {
+  padding-top: 1rem;
 }
 
 
@@ -354,33 +356,36 @@ nav {
 }
 
 
-.firstH{
+.firstH {
   margin-top: 19rem;
   margin-left: 12rem;
 }
 
-.thirdH{
+.thirdH {
   margin-top: 10rem;
   margin-right: -33rem;
 }
 
-.fourthH{
+.fourthH {
   margin-top: 29rem;
   margin-right: 13rem;
 }
 
-.secondH{
+.secondH {
   margin-left: -34rem;
   margin-top: 0rem;
 }
 
 .dot {
   position: absolute;
-  top: 50%; /* position the dots in the middle of the line */
-  left: -5px; /* adjust the position of the dots */
+  top: 50%;
+  /* position the dots in the middle of the line */
+  left: -5px;
+  /* adjust the position of the dots */
   width: 10px;
   height: 10px;
-  border-radius: 50%; /* make the dots round */
+  border-radius: 50%;
+  /* make the dots round */
   background-color: #022241;
 }
 
@@ -403,14 +408,14 @@ nav {
 
 /* icon placement in fourth page*/
 
-.education{
+.education {
   font-size: 2em;
   margin-bottom: 1rem;
   margin-top: 1rem;
   margin-left: 14rem;
 }
 
-.strategy{
+.strategy {
   font-size: 2em;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -433,7 +438,7 @@ nav {
 }
 
 .fifth_page hr {
-  
+
   width: 5rem;
   height: 0.2rem;
   background-color: #ffffff;
@@ -441,8 +446,8 @@ nav {
   margin-bottom: 2rem;
   font-size: 0;
 }
-.fa-icons
-{
+
+.fa-icons {
   padding: 3rem;
 }
 
@@ -465,6 +470,7 @@ nav {
   line-height: 1.5;
   max-width: 50rem;
 }
+
 .holders5 {
   display: flex;
   justify-content: center;
@@ -529,30 +535,32 @@ nav {
   flex: 1;
   margin-left: 20%;
   line-height: 150%;
-  
+
 }
-.App-footer-col1 h2{
+
+.App-footer-col1 h2 {
   color: #8be3ff;
 }
 
-.App-footer-col2 h2{
+.App-footer-col2 h2 {
   color: #8be3ff;
 }
 
-.App-footer-col3 h2{
+.App-footer-col3 h2 {
   color: #8be3ff;
 }
+
 .App-footer-col2 {
   flex: 1;
   margin-left: 20px;
   line-height: 150%;
 }
 
-.App-footer-col2 li a 
-{
+.App-footer-col2 li a {
   color: white;
   text-decoration: none;
 }
+
 .App-footer-col3 {
   flex: 1;
   margin-left: 20px;
@@ -578,8 +586,8 @@ nav {
   margin: 0;
 }
 
-.ft-logo{
-  
+.ft-logo {
+
   width: 10%;
   height: 50px;
 }
@@ -587,7 +595,7 @@ nav {
 
 
 
-/* temp sixth page */ 
+/* temp sixth page */
 
 
 .sixth_page {
@@ -620,6 +628,7 @@ nav {
   padding: 3rem;
   text-align: center;
 }
+
 .sixth_page h3 {
   color: #022241;
   font-size: 2.5rem;
@@ -639,6 +648,54 @@ nav {
   font-size: 0;
 }
 
-
-
-
+@media (max-width: 428px) {
+  .navbar-nav {
+    padding-top: 20px;
+  }
+  .navbar-nav li a {
+    font-size: 16px;
+    padding-right: 60px;
+  }
+  .header-text {
+    bottom: -5rem;
+    left: 40%;
+  }
+  .text-overlay {
+    top: 40%;
+    right: 30%;
+    transform: translate(0, -50%);
+  }
+  .text-overlay h1 {
+    font-size: 25px;
+    padding-top: 0;
+  }
+  .Animate {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .button-64 {
+    font-size: 18px;
+  }
+  .second_page h3 {
+    padding-top: 8rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+  }
+  .second_page hr {
+    margin-left: 2rem;
+    max-width: 20%;
+  }
+  .second_page img {
+    width: 50%;
+  }
+  .brand{
+    width: 30%;
+  }
+  .nav-item{
+    width: 10%;
+    
+  }
+  .nav-link{
+    font-size: 10px;
+  }
+}

@@ -15,7 +15,7 @@ function App() {
           <nav className="navbar navbar-expand-lg navbar-light bg-transparent header-nav">
             <div className="container-fluid">
               <a className="navbar-brand" href="">
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Logo" className="brand" />
               </a>
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
