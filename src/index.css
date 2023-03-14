@@ -955,8 +955,13 @@ nav {
     flex: 1;
     margin: 0;
     text-align: center;
+    text-decoration: none;
   }
 
+  .App-footer-col3 a:link{
+    text-decoration: none;
+    color: white;
+  }
   .App-footer-col2 {
     margin-top: 20px;
     margin-bottom: 20px;

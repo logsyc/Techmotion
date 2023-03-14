@@ -208,10 +208,10 @@ function App() {
           <div className="App-footer-col3">
             <h2>Contact Us</h2>
             <ul>
-              <li>1234 Giant Street
-                Dallas, TX 76040</li>
-              <li>(555)-123-456</li>
-              <li>dallas@techmotion.com</li>
+              <li>4201 Tacoma St, Irving, TX 75062
+</li>
+              <li>(469)-237-6520</li>
+              <li><a href = "mailto:info@techmotionccs.net">info@techmotionccs.net</a></li>
             </ul>
           </div>
         </div>
