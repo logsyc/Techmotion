@@ -7,12 +7,13 @@
   font-family: 'Golos Text', sans-serif;
 }
 
+
 .navbar-brand {
   position: absolute;
   top: 0;
   left: 0;
   float: left;
-  }
+}
 
 .navbar-nav {
   float: right;
@@ -106,6 +107,7 @@ nav {
 
 }
 
+
 .Animate {
   font-size: 80px;
   line-height: 70px;
@@ -137,6 +139,20 @@ nav {
 
 }
 
+.about_us_p {
+  font-size: 25;
+  color: grey;
+  padding-left: 8rem;
+  padding-top: 3rem;
+  max-width: 50%;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.about_us_img {
+  float: right;
+  padding-right: 1rem;
+}
 
 
 /* CSS */
@@ -652,50 +668,303 @@ nav {
   .navbar-nav {
     padding-top: 20px;
   }
+
   .navbar-nav li a {
     font-size: 16px;
     padding-right: 60px;
   }
+
   .header-text {
     bottom: -5rem;
     left: 40%;
   }
+
   .text-overlay {
     top: 40%;
     right: 30%;
     transform: translate(0, -50%);
   }
+
   .text-overlay h1 {
     font-size: 25px;
     padding-top: 0;
   }
+
   .Animate {
     font-size: 50px;
     line-height: 50px;
   }
+
   .button-64 {
     font-size: 18px;
   }
+
   .second_page h3 {
     padding-top: 8rem;
     padding-left: 2rem;
     font-size: 1.5rem;
   }
+
   .second_page hr {
     margin-left: 2rem;
     max-width: 20%;
   }
+
   .second_page img {
     width: 50%;
   }
-  .brand{
+
+  .brand {
     width: 30%;
   }
-  .nav-item{
+
+  .nav-item {
     width: 10%;
-    
+
   }
-  .nav-link{
+
+  .nav-link {
     font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 844px) {
+
+  .navbar-brand,
+  .navbar-nav {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav li a {
+    font-size: 16px;
+    padding-right: 50px;
+  }
+
+  .brand {
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+  .nav-item {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .text-overlay h1 {
+    padding-top: 100%;
+    /* width: 100%; */
+    font-size: 20px;
+    line-height: 50px;
+    width: 400px;
+
+  }
+
+  .text-overlay {
+    position: absolute;
+    left: 28%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 40%;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .second_page h3 {
+    padding-top: 3rem;
+  }
+
+  .header-line {
+    display: none;
+  }
+
+  .header-text {
+    display: none;
+  }
+
+  p.about_us_p {
+    font-size: 16px;
+  }
+  .about_us_img{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .third_page {
+    height: auto;
+    padding: 1rem;
+  }
+
+  .placeholder-wrapper {
+    flex-direction: column;
+  }
+
+  .placeholder {
+    width: 100%;
+    height: auto;
+    margin: 1rem -2rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fourth_page {
+    height: auto;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .how_we_do_it {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 11rem;
+  }
+
+  .fourth_page hr {
+    width: 5rem;
+    margin-bottom: -0.5rem;
+    margin-left: 11rem;
+  }
+
+  .line {
+    height: 50%;
+    width: 0.2rem;
+    margin-top: 1rem;
+  }
+
+  .holders {
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .holder {
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .holder i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .holder h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .holder p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .firstH {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+
+  .thirdH {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
+
+  .fourthH {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    margin-left: 3rem;
+  }
+
+  .secondH {
+    margin-left: 1rem;
+    margin-top: 3rem;
+  }
+
+  .education {
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .strategy {
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
+  .line{
+    display: none;
+  }
+  .holder5{
+    width: 3.7rem;
+    height: 4.9rem;
+  }
+  .fa-icons{
+    padding: 1rem;
+  }
+  .holder-header5{
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .sixth_page {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .sixth_page h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .our_clients_text {
+    font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 90%;
+  }
+}
+/* For screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .App-footer {
+    padding: 20px 10px;
+  }
+
+  .App-footer-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .App-footer-col1,
+  .App-footer-col2,
+  .App-footer-col3 {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+  }
+
+  .App-footer-col2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ft-logo {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
   }
 }

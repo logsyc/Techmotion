@@ -59,10 +59,10 @@ function App() {
       <div id="AboutUs" className="second_page">
         <h3>About Us</h3>
         <hr className="underline"></hr>
-        <p style={{ fontSize: 25, color: "grey", paddingLeft: "8rem", paddingTop: "3rem", maxWidth: "50%", display: "inline-block", lineHeight: 1.5 }}>
+        <p className="about_us_p">
           Tech Motion is a leading recruiting firm that provides top-notch technical talent to the industry. With a reputation as a provider of IT Services for recruiting and staffing industry experts, we are dedicated to connecting the best tech jobs with the most talented professionals.
         </p>
-        <img src={sideImg} alt="placeholder" style={{ float: "right", paddingRight: "1rem" }} />
+        <img className="about_us_img" src={sideImg} alt="placeholder"  />
       </div>
 
       <div id="OurServices" className="third_page">
